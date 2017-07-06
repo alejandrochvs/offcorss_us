@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i");
+body {
+  font-family: 'Roboto', sans-serif; }
+  body .top-nav-wrapper {
+    padding: 0; }
+    body .top-nav-wrapper .optional {
+      height: 6vh;
+      background: black;
+      line-height: 6vh;
+      border-bottom: solid 1px #FFDC00;
+      color: white;
+      text-align: center; }
+    body .top-nav-wrapper .top-nav {
+      background: black;
+      height: 8vh; }
+      body .top-nav-wrapper .top-nav .logo {
+        height: 60%;
+        top: 20%;
+        background: url(../img/logo-OFFCORSS.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; }
+  body .content {
+    height: auto;
+    padding: 0;
+    background: url(http://offcorss.vteximg.com.br/arquivos/back-new-offcorss-v2.jpg); }
+    body .content .section1 {
+      padding: 10vh 0;
+      background: url(../img/banner.jpg);
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
+      body .content .section1 .form-container {
+        background: linear-gradient(135deg, #9fc0b7 0%, #9fc0b7 39%, #c7c8e7 100%);
+        box-shadow: 10px 15px 0px white; }
+        body .content .section1 .form-container .registration .logo-white {
+          background: url(../img/logo-OFFCORSS-blanco.png);
+          height: 5vh;
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-top: 3vh;
+          margin-bottom: 3vh; }
+        body .content .section1 .form-container .registration input {
+          margin-top: 1vh;
+          height: 5vh;
+          transition: all .2s ease;
+          border-bottom: solid 2px transparent; }
+          body .content .section1 .form-container .registration input.wrong {
+            border-bottom: solid 2px orangered; }
+        body .content .section1 .form-container .registration label input {
+          height: inherit;
+          margin-top: 2.5vh; }
+        body .content .section1 .form-container .registration label a {
+          color: white;
+          transition: all .2s ease; }
+        body .content .section1 .form-container .registration label.wrong a {
+          color: orangered; }
+        body .content .section1 .form-container .registration button {
+          margin-top: 1vh;
+          margin-bottom: 7vh;
+          background: #01c2d1;
+          transition: all .3s ease;
+          border: none;
+          outline: none;
+          height: 6vh;
+          line-height: 6vh;
+          text-shadow: -2px 0px white; }
+          body .content .section1 .form-container .registration button:hover {
+            background: #01daea; }
+    body .content .section2 {
+      background: white;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
+      body .content .section2 .banner-container {
+        padding: 8vh 0; }
+        body .content .section2 .banner-container a {
+          padding: 0; }
+          body .content .section2 .banner-container a img {
+            padding: 0;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
+  body .footer {
+    height: auto;
+    background: black; }
+    body .footer .logo {
+      height: 6vh;
+      margin-top: 2vh;
+      margin-bottom: 1vh;
+      background: url(../img/logo-OFFCORSS.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    body .footer .politics h6 {
+      color: white;
+      text-decoration: underline;
+      text-align: center;
+      margin: 0;
+      transition: all .2s ease;
+      margin-bottom: 2vh; }
+      body .footer .politics h6:hover {
+        color: #FFDC00; }
+
+/*# sourceMappingURL=main.css.map */
