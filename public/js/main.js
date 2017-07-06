@@ -55,6 +55,7 @@ $(function () {
                     } else {
                         $('#email').tooltip('hide');
                         $('#email').removeClass('wrong');
+                        $(".form-container").toggleClass('done');
                     }
                 }
             });

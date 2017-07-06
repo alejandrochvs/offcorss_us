@@ -34,42 +34,61 @@ body {
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
       body .content .section1 .form-container {
         background: linear-gradient(135deg, #9fc0b7 0%, #9fc0b7 39%, #c7c8e7 100%);
-        box-shadow: 10px 15px 0px white; }
-        body .content .section1 .form-container .registration .logo-white {
-          background: url(../img/logo-OFFCORSS-blanco.png);
-          height: 5vh;
-          background-position: center;
-          background-size: contain;
-          background-repeat: no-repeat;
-          margin-top: 3vh;
-          margin-bottom: 3vh; }
-        body .content .section1 .form-container .registration input {
-          margin-top: 1vh;
-          height: 5vh;
-          transition: all .2s ease;
-          border-bottom: solid 2px transparent; }
-          body .content .section1 .form-container .registration input.wrong {
-            border-bottom: solid 2px orangered; }
-        body .content .section1 .form-container .registration label input {
-          height: inherit;
-          margin-top: 2.5vh; }
-        body .content .section1 .form-container .registration label a {
-          color: white;
-          transition: all .2s ease; }
-        body .content .section1 .form-container .registration label.wrong a {
-          color: orangered; }
-        body .content .section1 .form-container .registration button {
-          margin-top: 1vh;
-          margin-bottom: 7vh;
-          background: #01c2d1;
+        box-shadow: 10px 15px 0px white;
+        overflow: hidden; }
+        body .content .section1 .form-container .registration {
           transition: all .3s ease;
-          border: none;
-          outline: none;
-          height: 6vh;
-          line-height: 6vh;
-          text-shadow: -2px 0px white; }
-          body .content .section1 .form-container .registration button:hover {
-            background: #01daea; }
+          right: 0; }
+          body .content .section1 .form-container .registration .logo-white {
+            background: url(../img/logo-OFFCORSS-blanco.png);
+            height: 5vh;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-top: 3vh;
+            margin-bottom: 3vh; }
+          body .content .section1 .form-container .registration input {
+            margin-top: 1vh;
+            height: 5vh;
+            transition: all .2s ease;
+            border-bottom: solid 2px transparent; }
+            body .content .section1 .form-container .registration input.wrong {
+              border-bottom: solid 2px orangered; }
+          body .content .section1 .form-container .registration label input {
+            height: inherit;
+            margin-top: 2.5vh; }
+          body .content .section1 .form-container .registration label a {
+            color: white;
+            transition: all .2s ease; }
+          body .content .section1 .form-container .registration label.wrong a {
+            color: orangered; }
+          body .content .section1 .form-container .registration button {
+            margin-top: 1vh;
+            margin-bottom: 7vh;
+            background: #01c2d1;
+            transition: all .3s ease;
+            border: none;
+            outline: none;
+            height: 6vh;
+            line-height: 6vh;
+            text-shadow: -2px 0px white; }
+            body .content .section1 .form-container .registration button:hover {
+              background: #01daea; }
+        body .content .section1 .form-container .registration-done {
+          position: absolute;
+          left: 100%;
+          transition: all .3s ease;
+          color: white;
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          top: 35%;
+          text-transform: uppercase; }
+          body .content .section1 .form-container .registration-done h1 {
+            font-weight: 100; }
+        body .content .section1 .form-container.done .registration {
+          right: 100%; }
+        body .content .section1 .form-container.done .registration-done {
+          left: 0%; }
     body .content .section2 {
       background: white;
       box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
