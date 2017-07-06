@@ -6,7 +6,7 @@ var path = require('path');
 var urlEncodedParser = bodyParser.urlencoded({
     extended: false
 });
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 80;
 var registerUS = require('./routes/registerUS');
 app.set('view engine', 'jade');
 app.use(express.static(path.join(__dirname ,'/public')));
