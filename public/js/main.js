@@ -49,7 +49,7 @@ $(function () {
                 url: '/register',
                 data: data,
                 success: function (res) {
-                    if (res == '1062') {
+                    if (res == '11000') {
                         $('#email').tooltip('show');
                         $('#email').addClass('wrong');
                     } else {
