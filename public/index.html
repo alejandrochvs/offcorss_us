@@ -25,19 +25,21 @@
             <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-7 form-container">
                 <div class="col-xs-12 registration">
                     <div class="col-xs-12 col-sm-10 col-sm-offset-1 logo-white"></div>
-                    <input class="col-xs-10 col-xs-offset-1" type="text" required="" id="name" name="name" placeholder="First Name" value="">
-                    <input class="col-xs-10 col-xs-offset-1" type="text" required="" id="last_name" name="last_name" placeholder="Last Name" value="">
-                    <input class="col-xs-10 col-xs-offset-1" type="email" required="" id="email" name="email" placeholder="E-Mail" value="">
-                    <input class="col-xs-10 col-xs-offset-1" type="text" required="" id="state" name="state" placeholder="State" value="">
-                    <input class="col-xs-10 col-xs-offset-1" type="text" required="" id="phone" name="phone" placeholder="Phone (123) 456 7890" value="">
-                    <label class="col-xs-10 col-xs-offset-1">
+                    <input class="col-xs-10 col-xs-offset-1" type="text" required="" id="name" name="name" placeholder="First Name" value="" title="Please enter a valid name.">
+                    <input class="col-xs-10 col-xs-offset-1" type="text" required="" id="last_name" name="last_name" placeholder="Last Name" value="" title="Please enter a valid last name.">
+                    <input class="col-xs-10 col-xs-offset-1" type="email" required="" id="email" name="email" placeholder="E-Mail" value="" title="Please enter a valid email.">
+                    <select required="" id="state" name="state" id="" class="col-xs-10 col-xs-offset-1" placeholder="State" title="Please select one state.">
+                    <option value="" disabled selected>State</option>
+                    </select>
+                    <input class="col-xs-10 col-xs-offset-1" type="text" required="" id="phone" name="phone" placeholder="Phone (123) 456 7890" value="" title="Phone number has to be 10 digits long.">
+                    <label class="col-xs-10 col-xs-offset-1" title="Please accept terms and conditions.">
                         <input class="col-xs-1" type="checkbox" required="">
                         <h6 class="col-xs-11">I have read and agree to the <a id="terms" href="policy.html"> <u>Terms and Conditions and Privacy Policy</u> </a> </h6>
                     </label>
                     <button class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4">SEND</button>
                 </div>
                 <div class="col-xs-12 registration-done">
-                    <h1>Thanks for subscribing!</h1>
+                    <img class="col-xs-12" src="img/THANKSFOR-SUBSCRIBING.png" alt="">
                 </div>
             </div>
         </div>

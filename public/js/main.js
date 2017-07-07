@@ -12,13 +12,14 @@ $(function () {
             return true;
         } else {
             $('#' + id).addClass('wrong');
+            $(ctrl).tooltip({
+                'trigger': 'hover',
+                'title': 'Incorrect',
+                'placement': 'top'
+            });
             return false;
         }
     }
-    $('#email').tooltip({
-        'trigger': 'manual',
-        'title': 'The e-mail already exists.'
-    });
     $('button').click(function () {
         var name = $('#name').val();
         var last_name = $('#last_name').val();
@@ -32,6 +33,11 @@ $(function () {
         var phoneBool = validate("phone");
         if (!$('input[type="checkbox"]').is(':checked')) {
             $('label').addClass('wrong');
+            $('label').tooltip({
+                'trigger': 'hover',
+                'title': 'Incorrect',
+                'placement': 'bottom'
+            });
             return;
         } else {
             $('label').removeClass('wrong');
@@ -50,17 +56,26 @@ $(function () {
                 data: data,
                 success: function (res) {
                     if (res == '11000') {
-                        $('#email').tooltip('show');
                         $('#email').addClass('wrong');
+                        $('#email').tooltip({
+                            'trigger': 'hover',
+                            'title': 'The e-mail already exists.',
+                            'placement': 'top'
+                        });
                     } else {
-                        $('#email').tooltip('hide');
                         $('#email').removeClass('wrong');
+                        $('#email').tooltip({
+                            'trigger': 'hover',
+                            'title': 'The e-mail already exists.',
+                            'placement': 'top'
+                        });
                         $(".form-container").toggleClass('done');
                     }
                 }
             });
+        } else if (!phoneBool) {
+            console.log('phone');
         }
-
     });
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function (position) {
@@ -74,5 +89,9 @@ $(function () {
                 }
             });
         });
+    }
+    var states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New", "Hampshire", "New", "Jersey", "New", "Mexico", "New", "York", "North", "Carolina", "North", "Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode", "Island", "South", "Carolina", "South", "Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West", "Virginia", "Wisconsin", "Wyoming"];
+    for (var i = 0; i < states.length; i++) {
+        $('select').append('<option value="' + states[i] + '" class="col-xs-12">' + states[i] + '</option>');
     }
 })
