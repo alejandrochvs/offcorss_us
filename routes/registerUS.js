@@ -1,8 +1,10 @@
 var express = require('express');
 var app = express();
 var router = express.Router();
+var mongoose = require('mongoose')
 var mysql = require('mysql');
-var con = mysql.createConnection({
+app.get('/',function())
+/*var con = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",
@@ -27,5 +29,5 @@ con.connect(function (err) {
             res.sendStatus(200);
         });
     });
-});
+});*/
 module.exports = router;
