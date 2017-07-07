@@ -3,7 +3,9 @@ var app = express();
 var router = express.Router();
 var mongoose = require('mongoose')
 var mysql = require('mysql');
-app.get('/',function())
+app.get('/',function(req,res){
+    res.send('Mongoose');
+})
 /*var con = mysql.createConnection({
     host: "localhost",
     user: "root",
