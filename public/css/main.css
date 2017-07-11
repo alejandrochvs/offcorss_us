@@ -47,12 +47,14 @@ body {
             background-repeat: no-repeat;
             margin-top: 3vh;
             margin-bottom: 3vh; }
-          body .content .section1 .form-container .registration input, body .content .section1 .form-container .registration select {
+          body .content .section1 .form-container .registration input,
+          body .content .section1 .form-container .registration select {
             margin-top: 1vh;
             height: 5vh;
             transition: all .2s ease;
             border-bottom: solid 2px transparent; }
-            body .content .section1 .form-container .registration input.wrong, body .content .section1 .form-container .registration select.wrong {
+            body .content .section1 .form-container .registration input.wrong,
+            body .content .section1 .form-container .registration select.wrong {
               border-bottom: solid 2px orangered; }
           body .content .section1 .form-container .registration h5 {
             margin: 0;
@@ -107,6 +109,12 @@ body {
   body .footer {
     height: auto;
     background: black; }
+    body .footer .country-wrap .country-selection a span.flag {
+      background: url(../img/colombia.png);
+      height: 4vh;
+      background-size: contain;
+      background-repeat: no-repeat;
+      top: 4vh; }
     body .footer .logo {
       height: 6vh;
       margin-top: 2vh;

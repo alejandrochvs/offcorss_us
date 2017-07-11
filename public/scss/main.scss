@@ -53,7 +53,8 @@ body {
                         margin-top: 3vh;
                         margin-bottom: 3vh;
                     }
-                    input,select {
+                    input,
+                    select {
                         margin-top: 1vh;
                         height: 5vh;
                         transition: all .2s ease;
@@ -62,11 +63,11 @@ body {
                             border-bottom: solid 2px orangered;
                         }
                     }
-                    h5{
+                    h5 {
                         margin: 0;
                         height: 5vh;
                         line-height: 5vh;
-                        margin-top:1vh;
+                        margin-top: 1vh;
                     }
                     label {
                         input {
@@ -139,6 +140,19 @@ body {
     .footer {
         height: auto;
         background: black;
+        .country-wrap {
+            .country-selection {
+                a {
+                    span.flag {
+                        background: url(../img/colombia.png);
+                        height: 4vh;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        top: 4vh;
+                    }
+                }
+            }
+        }
         .logo {
             height: 6vh;
             margin-top: 2vh;
@@ -163,11 +177,13 @@ body {
         }
     }
 }
-.tooltip-inner{
+
+.tooltip-inner {
     background: linear-gradient(135deg, #9fc0b7 0%, #9fc0b7 39%, #c7c8e7 100%);
     border: solid 1px white;
     font-size: 15px;
 }
-.tooltip.top .tooltip-arrow{
+
+.tooltip.top .tooltip-arrow {
     border-top-color: white;
 }
