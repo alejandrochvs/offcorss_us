@@ -1,8 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
+$yellow: #FFDC00;
 body {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 900;
     background: url(http://offcorss.vteximg.com.br/arquivos/back-new-offcorss-v2.jpg);
+    .top-nav-wrapper {
+        padding: 0;
+        .optional {
+            height: 6vh;
+            background: black;
+            line-height: 6vh;
+            border-bottom: solid 1px $yellow;
+            color: white;
+            text-align: center;
+        }
+        .top-nav {
+            background: black;
+            height: 8vh;
+            .logo {
+                height: 60%;
+                top: 20%;
+                background: url(../img/logo-OFFCORSS.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                cursor: pointer;
+            }
+        }
+    }
     .body-wrap {
         background: #7a6a75;
         box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);

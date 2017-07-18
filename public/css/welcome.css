@@ -3,6 +3,26 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 900;
   background: url(http://offcorss.vteximg.com.br/arquivos/back-new-offcorss-v2.jpg); }
+  body .top-nav-wrapper {
+    padding: 0; }
+    body .top-nav-wrapper .optional {
+      height: 6vh;
+      background: black;
+      line-height: 6vh;
+      border-bottom: solid 1px #FFDC00;
+      color: white;
+      text-align: center; }
+    body .top-nav-wrapper .top-nav {
+      background: black;
+      height: 8vh; }
+      body .top-nav-wrapper .top-nav .logo {
+        height: 60%;
+        top: 20%;
+        background: url(../img/logo-OFFCORSS.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        cursor: pointer; }
   body .body-wrap {
     background: #7a6a75;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -105,4 +125,4 @@ body {
         body .body-wrap .img-container img {
           box-shadow: 15px 15px 0 white; } }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=welcome.css.map */
