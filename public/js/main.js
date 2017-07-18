@@ -77,19 +77,6 @@ $(function () {
             console.log('phone');
         }
     });
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function (position) {
-            var latitude = position.coords.latitude;
-            var longitude = position.coords.longitude;
-            $.ajax({
-                type: 'GET',
-                url: 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' + latitude + ',' + longitude + '&key=AIzaSyDgDTgeG85yEkYTyL8YF2Ly8VzWemIMQYw',
-                success: function (res) {
-                    console.log(res.results[0].address_components[6].short_name);
-                }
-            });
-        });
-    }
     $('.top-nav > .logo').click(function(){
         location.href = 'http://www.offcorss.com';
     })
