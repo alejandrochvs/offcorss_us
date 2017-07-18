@@ -123,6 +123,45 @@ body {
             }
         }
     }
+    .footer {
+        height: auto;
+        background: black;
+        .country-wrap {
+            .country-selection {
+                a {
+                    span.flag {
+                        background: url(../img/colombia.png);
+                        height: 4vh;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        top: 4vh;
+                    }
+                }
+            }
+        }
+        .logo {
+            height: 6vh;
+            margin-top: 2vh;
+            margin-bottom: 1vh;
+            background: url(../img/logo-OFFCORSS.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        .politics {
+            h6 {
+                color: white;
+                text-decoration: underline;
+                text-align: center;
+                margin: 0;
+                transition: all .2s ease;
+                margin-bottom: 2vh;
+                &:hover {
+                    color: $yellow;
+                }
+            }
+        }
+    }
     @media (max-width: 767px) {
         .body-wrap {
             min-height: 100vh;

@@ -104,6 +104,32 @@ body {
       body .body-wrap .img-container img {
         padding: 0;
         box-shadow: 30px 30px 0 white; }
+  body .footer {
+    height: auto;
+    background: black; }
+    body .footer .country-wrap .country-selection a span.flag {
+      background: url(../img/colombia.png);
+      height: 4vh;
+      background-size: contain;
+      background-repeat: no-repeat;
+      top: 4vh; }
+    body .footer .logo {
+      height: 6vh;
+      margin-top: 2vh;
+      margin-bottom: 1vh;
+      background: url(../img/logo-OFFCORSS.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; }
+    body .footer .politics h6 {
+      color: white;
+      text-decoration: underline;
+      text-align: center;
+      margin: 0;
+      transition: all .2s ease;
+      margin-bottom: 2vh; }
+      body .footer .politics h6:hover {
+        color: #FFDC00; }
   @media (max-width: 767px) {
     body .body-wrap {
       min-height: 100vh;
