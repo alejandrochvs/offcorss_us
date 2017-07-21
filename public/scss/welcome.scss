@@ -76,40 +76,57 @@ body {
             font-size: 50px;
         }
         .selection {
-            .country {
-                cursor: pointer;
-                background: transparent;
-                transition: all .3s ease;
+            a {
+                .country {
+                    cursor: pointer;
+                    background: transparent;
+                    transition: all .3s ease;
+                }
                 &:nth-child(1) {
-                    text-align: center;
-                    text-transform: uppercase;
-                    color: white;
-                    top: 1px;
-                    font-size: 50px;
-                    left: 0;
-                    font-weight: bold;
-                    border-right: solid 2px #32ddbb;
-                    &:hover {
+                    .country {
+                        text-align: center;
+                        text-transform: uppercase;
+                        top: 1px;
+                        font-size: 50px;
+                        left: 0;
+                        font-weight: bold;
+                        border: solid 2px #32ddbb;
                         background: white;
                         color: #32ddbb;
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                        &:hover {
+                            background: #32ddbb;
+                            color: white;
+                            border-color: white;
+                        }
                     }
                 }
                 &:nth-child(2) {
-                    text-align: center;
-                    text-transform: uppercase;
-                    color: white;
-                    top: 1px;
-                    font-size: 50px;
-                    left: 0;
-                    text-shadow: 2px 2px #32ddbb;
-                    -webkit-text-stroke-width: 1px;
-                    -webkit-text-stroke-color: #5686ae;
-                    font-weight: bold;
-                    &:hover {
+                    .country {
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: white;
+                        top: 1px;
+                        font-size: 50px;
+                        left: 0;
+                        font-weight: bold;
                         background: #32ddbb;
-                        color: #32ddbb;
+                        border: solid 2px white;
+                        color: white;
                         text-shadow: 2px 2px #5686ae;
                         -webkit-text-stroke-color: white;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        border-top-left-radius: 0px;
+                        border-bottom-left-radius: 0px;
+                        &:hover {
+                            background: white;
+                            text-shadow: 2px 2px #32ddbb;
+                            -webkit-text-stroke-width: 1px;
+                            -webkit-text-stroke-color: #5686ae;
+                            border-color: #32ddbb;
+                        }
                     }
                 }
             }
