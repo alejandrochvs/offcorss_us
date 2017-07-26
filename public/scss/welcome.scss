@@ -41,6 +41,11 @@ body {
         background: -ms-linear-gradient(top, rgba(89, 79, 105, 1) 0%, rgba(126, 122, 123, 1) 27%, rgba(156, 182, 147, 1) 60%, rgba(245, 246, 204, 1) 100%);
         background: linear-gradient(to bottom, rgba(89, 79, 105, 1) 0%, rgba(126, 122, 123, 1) 27%, rgba(156, 182, 147, 1) 60%, rgba(245, 246, 204, 1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#594f69', endColorstr='#f5f6cc', GradientType=0);
+        background: url(../img/fondo-1.jpg);
+        background-origin: inherit;
+        background-size: cover;
+        background-position: center bottom;
+        background-repeat: no-repeat;
         #space {
             position: absolute;
             top: 0;

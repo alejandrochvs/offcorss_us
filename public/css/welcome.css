@@ -35,7 +35,12 @@ body {
     background: -o-linear-gradient(top, #594f69 0%, #7e7a7b 27%, #9cb693 60%, #f5f6cc 100%);
     background: -ms-linear-gradient(top, #594f69 0%, #7e7a7b 27%, #9cb693 60%, #f5f6cc 100%);
     background: linear-gradient(to bottom, #594f69 0%, #7e7a7b 27%, #9cb693 60%, #f5f6cc 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#594f69', endColorstr='#f5f6cc', GradientType=0); }
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#594f69', endColorstr='#f5f6cc', GradientType=0);
+    background: url(../img/fondo-1.jpg);
+    background-origin: inherit;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat; }
     body .body-wrap #space {
       position: absolute;
       top: 0;
