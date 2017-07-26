@@ -160,9 +160,9 @@ body {
         font-size: 28px; }
       body .body-wrap .selection {
         padding: 0; }
-        body .body-wrap .selection .country:nth-child(1) {
+        body .body-wrap .selection a:nth-child(1) .country {
           font-size: 30px; }
-        body .body-wrap .selection .country:nth-child(2) {
+        body .body-wrap .selection a:nth-child(2) .country {
           font-size: 30px; }
       body .body-wrap .img-container {
         margin-bottom: 10vh; }
