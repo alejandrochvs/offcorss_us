@@ -202,6 +202,7 @@ body {
             }
             .selection {
                 padding: 0;
+				overflow: hidden;
                 a {
                     &:nth-child(1) {
                         .country {
