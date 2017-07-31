@@ -86,7 +86,8 @@ body {
       background: white;
       color: #32ddbb;
       border-top-left-radius: 5px;
-      border-bottom-left-radius: 5px; }
+      border-bottom-left-radius: 5px;
+      left: -5px; }
       body .body-wrap .selection a:nth-child(1) .country:hover {
         background: #32ddbb;
         color: white;
@@ -107,7 +108,8 @@ body {
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
       border-top-left-radius: 0px;
-      border-bottom-left-radius: 0px; }
+      border-bottom-left-radius: 0px;
+      left: 5px; }
       body .body-wrap .selection a:nth-child(2) .country:hover {
         background: white;
         text-shadow: 2px 2px #32ddbb;
@@ -117,8 +119,7 @@ body {
     body .body-wrap .img-container {
       height: auto;
       margin-top: 5vh;
-      margin-bottom: 15vh;
-      width: 100%; }
+      margin-bottom: 15vh; }
       body .body-wrap .img-container img {
         padding: 0;
         box-shadow: 30px 30px 0 white; }
@@ -159,7 +160,8 @@ body {
       body .body-wrap .text3 {
         font-size: 28px; }
       body .body-wrap .selection {
-        padding: 0; }
+        padding: 0;
+        overflow: hidden; }
         body .body-wrap .selection a:nth-child(1) .country {
           font-size: 30px; }
         body .body-wrap .selection a:nth-child(2) .country {
