@@ -48,6 +48,7 @@ body {
       background: transparent; }
     body .body-wrap .text {
       margin-top: 5vh;
+      margin-bottom: 2.5vh;
       text-align: center;
       text-transform: uppercase;
       color: white;
@@ -60,12 +61,14 @@ body {
       font-weight: bold; }
     body .body-wrap .text2 {
       font-weight: bold;
+      margin-bottom: 2.5vh;
       text-align: center;
       color: white;
       text-transform: uppercase;
       font-size: 55px;
       margin-top: -2vh; }
     body .body-wrap .text3 {
+      margin-bottom: 1vh;
       font-weight: bold;
       text-align: center;
       color: #32ddbb;
