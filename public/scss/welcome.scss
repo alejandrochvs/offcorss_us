@@ -104,11 +104,13 @@ body {
                         text-shadow: 2px 2px #5686ae;
                         border-top-left-radius: 5px;
                         border-bottom-left-radius: 5px;
-						left: -5px;
+                        left: -5px;
                         &:hover {
-                            background: #32ddbb;
-                            color: white;
-                            border-color: white;
+                            background: white;
+                            text-shadow: 2px 2px #32ddbb;
+                            -webkit-text-stroke-width: 1px;
+                            -webkit-text-stroke-color: #5686ae;
+                            border-color: #32ddbb;
                         }
                     }
                 }
@@ -130,7 +132,7 @@ body {
                         border-bottom-right-radius: 5px;
                         border-top-left-radius: 0px;
                         border-bottom-left-radius: 0px;
-						left: 5px;
+                        left: 5px;
                         &:hover {
                             background: white;
                             text-shadow: 2px 2px #32ddbb;
@@ -206,7 +208,7 @@ body {
             }
             .selection {
                 padding: 0;
-				overflow: hidden;
+                overflow: hidden;
                 a {
                     &:nth-child(1) {
                         .country {

@@ -93,9 +93,11 @@ body {
       border-bottom-left-radius: 5px;
       left: -5px; }
       body .body-wrap .selection a:nth-child(1) .country:hover {
-        background: #32ddbb;
-        color: white;
-        border-color: white; }
+        background: white;
+        text-shadow: 2px 2px #32ddbb;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #5686ae;
+        border-color: #32ddbb; }
     body .body-wrap .selection a:nth-child(2) .country {
       text-align: center;
       text-transform: uppercase;
