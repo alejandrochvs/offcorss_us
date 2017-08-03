@@ -85,9 +85,10 @@ body {
       font-size: 50px;
       left: 0;
       font-weight: bold;
-      border: solid 2px #32ddbb;
-      background: white;
-      color: #32ddbb;
+      border: solid 2px white;
+      background: #32ddbb;
+      color: white;
+      text-shadow: 2px 2px #5686ae;
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px;
       left: -5px; }
