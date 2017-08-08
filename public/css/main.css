@@ -37,6 +37,17 @@ body {
         background-position: center;
         background-size: contain;
         cursor: pointer; }
+      body .top-nav-wrapper .top-nav a.country-selection {
+    color: #fff;
+    font-family: 'FrontageCondensed-Regular';
+    font-size: 20px;}
+      body .top-nav-wrapper .top-nav a.country-selection:hover {
+    text-decoration: none;}
+      body .top-nav-wrapper .top-nav a.country-selection  span.flag {
+      background: url(../img/colombia.png);
+      height:20px;
+      background-size: contain;
+      background-repeat: no-repeat; }
   body .content {
     height: auto;
     padding: 0;
