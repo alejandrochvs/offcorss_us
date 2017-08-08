@@ -28,3 +28,10 @@ var userSchema = new Schema({
 });
 var users = mongoose.model('users', userSchema);
 module.exports = users;
+CREATE TABLE Persons (
+    name varchar(255),
+    last_name varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255) 
+);
